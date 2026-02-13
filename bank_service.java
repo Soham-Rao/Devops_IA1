@@ -2,7 +2,7 @@ public class bank_service {
  
     // Nested class (can be public or private, doesn't matter for functionality) 
     static class BankAccount { 
-        private double balance; 
+        private double balance, hi; 
  
         public BankAccount(double initialBalance) { 
             if (initialBalance < 0) { 
